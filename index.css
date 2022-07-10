@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(232, 223, 223);
+}
+.main {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  justify-content: space-between;
+  margin-left: 8%;
+  margin-right: 30px;
+}
+
+.navbar .logo {
+  color: rgb(228, 63, 63);
+  font-size: 42px;
+  font-weight: 900;
+  padding-top: 30px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  align-items: center;
+  font-size: 25px;
+  font-family: tahoma, sans-serif;
+  font-weight: 800;
+  list-style-type: none;
+  letter-spacing: 3px;
+  padding-top: 35px;
+  margin-left: 45px;
+
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(124, 13, 13);
+  transition: .4 ease;
+}
+.navbar ul li a:hover{
+  background: transparent;
+  border: 2px solid red;
+  border-radius: 30px;
+  padding: 10px;
+}
+.header{
+  text-align: center;
+  padding-top: 45px;
+}
+
+.header h2{
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(175, 12, 12);
+}
+.header .input-email {
+  margin-top: 25px;
+  border-radius: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  color: rgb(24, 2, 2);
+  letter-spacing: 2px;
+  font-size: 18px;
+  overflow: hidden;
+}
+.header .input-button{
+  margin-top: 25px;
+  border-radius: 30px;
+  padding: 5px;
+}
+.main2 {
+  padding-top: 50px;
+}
+.main2 .label {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 45px;
+  display: flex;
+}
+
+.main2 .label .svg {
+  color: rgb(182, 51, 51);
+  font-size: 25px;
+  min-width: 110px;
+}
+.main2 .label .paragraph{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main2 .label .paragraph h2{
+  font-size: 27px;
+  font-family: tahoma;
+  letter-spacing: 1px;
+}
+.main2 .label .paragraph p {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: times new roman, sans-serif;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+}
+.video #video{
+  width: 700px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.box .boxes{
+  height:260px;
+  width: 250px;
+  background: rgb(237, 131, 131);
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  padding-top: 20px;
+  max-width: 500px;
+  min-width: 30px;
+  overlay: hidden;
+}
+.box .boxes h3{
+  background: rgb(237, 131, 131);
+  font-size: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+.box .boxes h2{
+  background: rgb(237, 131, 131);
+  font-size: 32px;
+  color: rgb(192, 25, 25);
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  min-width: 30px;
+}
+.box .boxes p {
+  background: rgb(237, 131, 131);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.box .boxes form{
+  margin-top: 10px;
+  background: rgb(237, 131, 131);
+}
+.box .boxes form input {
+  padding: 10px;
+  border-radius: 20px;
+  background: rgb(123, 47, 47);
+  color: #fff;
+  font-weight: 500;
+  transition: .4 ease;
+}
+.box .boxes form input:hover{
+  background: transparent;
+  transform: scale(1.2);
+}
