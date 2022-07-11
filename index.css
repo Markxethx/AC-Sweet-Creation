@@ -48,7 +48,7 @@
 }
 .navbar ul li a:hover{
   background: transparent;
-  border: 2px solid red;
+  border: 2px solid #ccd5ae;
   border-radius: 30px;
   padding: 10px;
 }
