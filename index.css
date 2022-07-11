@@ -377,3 +377,9 @@
 .icons .icon a:hover{
   color: #ccd5ae;
 }
+@media (min-width: 480px) {
+  .feature{
+    display: flex;
+    flex-direction: column;
+  } 
+}
