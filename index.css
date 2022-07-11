@@ -104,12 +104,15 @@
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.cakes .cake-type a{
+  text-decoration: none;
+}
 .cake-type h3:hover{
   transform: scale(1.2);
   border: 1px solid #ccd5ae;
   border-radius: 20px;
 }
-img {
+.pic {
   height: 300px;
   width: 300px;
 }
@@ -130,6 +133,7 @@ img {
   padding-top: 20px;
   max-width: 500px;
   min-width: 30px;
+  transition: .4s ease;
 }
 .feature .images:hover{
   transform: scale(1.2);
@@ -144,11 +148,25 @@ img {
   padding: 5px;
   border-radius: 20px;
   background: #ccd5ae;
+  color:#d4a373;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 800;
 }
-.feature .images form .btn1:hover{
+.center .about .p .form .btn1 {
+  border: 2px solid #d4a373;
+  padding: 15px;
+  border-radius: 20px;
+  background: #ccd5ae;
+  color:#d4a373;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.feature .images form .btn1:hover, .center .about .p .form .btn1:hover{
   background-color: transparent;
 }
-.feature .images form .btn2:hover{
+.feature .images form .btn2:hover,.center .about .p .form .btn2:hover{
   background-color: transparent;
 }
 .feature .images form .btn2{
@@ -156,6 +174,83 @@ img {
   padding: 5px;
   border-radius: 20px;
   background: #d4a373;
+  color:#ccd5ae;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.center .about .p .form .btn2{
+  border: 4px solid #ccd5ae;
+  padding: 15px;
+  border-radius: 20px;
+  background: #d4a373;
+  color:#ccd5ae;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  border-radius: 20px;
+  padding: 45px;
+}
+.alex{
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+  transition: .4s ease;
+}
+.p h3{
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 2px;
+  color: #d4a373;
+  padding-top: 30%;
+  margin-left: 30px;
+}
+.center .about .p .form2, .center .about .p .select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+  text-align: center;
+}
+.center .about .p .select select{
+  border: 2px solid #d4a373;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 25px;
+  color:#d4a373;
+}
+.center .form .price{
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 2px;
+  color: #ccd5ae;
+  padding-top: 20%;
+  margin-left: 30px;
+  
+}
+
+.about .pics{
+  overflow: hidden;
+  margin-right: 10px;
+}
+.about .picss{
+  overflow: hidden;
+  margin-right: 10px;
+}
+.about .pics .alex:hover, .about .picss .alex:hover{
+  transform: scale(1.1);
 }
 .main2 {
   padding-top: 50px;
@@ -169,7 +264,7 @@ img {
 }
 
 .main2 .label .svg {
-  color: rgb(182, 51, 51);
+  color: #d4a373;
   font-size: 25px;
   min-width: 110px;
 }
@@ -179,16 +274,25 @@ img {
   flex-direction: column;
   justify-content: center;
 }
+
 .main2 .label .paragraph h2{
   font-size: 27px;
   font-family: tahoma;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
+  color:#ccd5ae;
 }
 .main2 .label .paragraph p {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 20px;
   font-family: times new roman, sans-serif;
+  color:#d4a373;
+  font-weight: bold;
 }
+.labels{
+  border: 2px solid #d4a373;
+  overflow: hidden;
+}
+
 .video {
   display: flex;
   justify-content: center;
@@ -208,7 +312,7 @@ img {
 .box .boxes{
   height:260px;
   width: 250px;
-  background: rgb(237, 131, 131);
+  background: #d4a373;
   padding: 20px;
   margin: 15px;
   text-align: center;
@@ -219,31 +323,33 @@ img {
   min-width: 30px;
 }
 .box .boxes h3{
-  background: rgb(237, 131, 131);
-  font-size: 20px;
+  background: #d4a373;
+  font-size: 30px;
   padding-bottom: 10px;
   letter-spacing: 1px;
   font-family: sans-serif;
+  color: rgb(123, 47, 47);
 }
 
 .box .boxes h2{
-  background: rgb(237, 131, 131);
+  background: #d4a373;
   font-size: 32px;
-  color: rgb(192, 25, 25);
+  color: rgb(123, 47, 47);
   padding-bottom: 10px;
   letter-spacing: 1px;
   min-width: 30px;
 }
 .box .boxes p {
-  background: rgb(237, 131, 131);
+  background: #d4a373;
   padding-top: 5px;
   padding-bottom: 5px;
   letter-spacing: 2px;
   font-weight: 600;
+  color: rgb(123, 47, 47);
 }
 .box .boxes form{
   margin-top: 10px;
-  background: rgb(237, 131, 131);
+  background: #d4a373;
 }
 .box .boxes form input {
   padding: 10px;
@@ -256,4 +362,18 @@ img {
 .box .boxes form input:hover{
   background: transparent;
   transform: scale(1.2);
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.icons .icon a {
+  color:#d4a373;
+  margin-left: 30px;
+}
+
+.icons .icon a:hover{
+  color: #ccd5ae;
 }
