@@ -330,19 +330,25 @@ button.normal:hover{
 }
 /* banner */
 /*banner2 */
+.banner-start{
+  margin: 60px 0;
+  background: #4b4c57;
+  padding: 20px 0;
+}
 .banner2{
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 50px;
+  flex-wrap: nowrap;
   color:#fff;
   letter-spacing: 2px;
+  width: 100%;
 }
-.banner2 .bannerb{
+.banner2 .bannerb, .banner2 .bannerb-1{
   display: flex;
+  max-width: 35%;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
+  text-align: start;
   min-width: 580px;
   height: 40vh;
   background-size: cover;
@@ -350,18 +356,51 @@ button.normal:hover{
   padding: 30px;
   background-image: url(img/image41.png);
 }
+.banner2 .bannerb-1{
+  background-image: url(img/promo.jpg);
+  color: #000;
+  text-align: center !important;
+}
+.banner2 .bannerb h2{
+  background: none;
+}
+.banner2 .bannerb-1 h2{
+  background: violet;
+}
+.banner2 .bannerb-1 h3{
+  display: none;
+}
 .banner2 h2{
   font-size: 30px;
-  position: relative;
-  margin-top: -18px;
+  background: #ffffff;
 }
 .banner2 h3{
-  position: relative;
-  margin-top: -18px;
-  color:#2b2d42;
-  opacity: 70%;
+  color:#000;
+}
+.banner2 .bannerb2{
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  color: #14213d;
+  border-radius: 20px;
+}
+.banner2 .b2a{
+  background-image: url(img/bannerb.jpg);
+}
+.banner2 .b2b{
+  background-image: url(img/b2b.jpg);
+}
+.banner2 .btc{
+  background-image: url(img/btc.jpg);
 }
 /* /banner2 */
+/*
 .center{
   display: flex;
   justify-content: center;
@@ -431,6 +470,7 @@ button.normal:hover{
   overflow: hidden;
 }
 
+*/
 .video {
   display: flex;
   justify-content: center;
@@ -515,3 +555,4 @@ button.normal:hover{
 .icons .icon a:hover{
   color: #ccd5ae;
 }
+
