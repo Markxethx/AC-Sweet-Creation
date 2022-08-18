@@ -1,0 +1,27 @@
+.center-design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.center-design .about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #000;
+  width: 60%;
+  height: auto;
+  background: grey;
+  border-radius: 30px;
+}
+.center-design .about .picss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.center-design .about .picss figure {
+  filter: drop-shadow(2px 4ps 8px #000);
+  border-radius: 30px;
+}/*# sourceMappingURL=second-design.css.map */
